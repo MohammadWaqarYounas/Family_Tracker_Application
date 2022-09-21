@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Family_Tracker_Application</string>
+    <string name="Donthave">Don\'t have an account?</string>
+    <string name="or">──────────── Or ────────────</string>
+    <string name="forgotpass">Forgot password?</string>
+    <string name="Email_Instruction">An email with a password reset link will be sent to your email.</string>
+    <string name="Email_Sent">An email with a link and instructions for password reset has been sent to your email</string>
+    <string name="Please_Follow">Please follow the instructions and Sign In using the new credentials.</string>
+    <string name="Email_sent_to">An account activation mail has been sent to [user@gmail.com]</string>
+    <string name="Check_your_email">PLease check your email and click in the validation link to activate your account, then click Continue.</string>
+    <string name="Account_Success">Your account has been successfully activated.</string>
+</resources>

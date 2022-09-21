@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/drawable/button_rounded_corner.xml" value="0.152" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/drawable/rounded_corner.xml" value="0.152" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_forgot_password.xml" value="0.246875" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_forgot_progree_stage_one.xml" value="0.246875" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_forgot_progress.xml" value="0.246875" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_forgot_progress_stage_four.xml" value="0.2609375" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_forgot_progress_stage_three.xml" value="0.246875" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_frogot_progress_stage_two.xml" value="0.246875" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_main.xml" value="0.246875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
