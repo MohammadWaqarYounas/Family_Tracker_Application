@@ -4,33 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FrogotProgressStageTwo"
     android:background="@color/background"
     android:paddingHorizontal="15dp"
     android:paddingTop="@dimen/_5sdp">
-    <ImageView
-        android:id="@+id/back"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:background="@drawable/backarrow" />
-
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:layout_marginBottom="@dimen/_15sdp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="Sign Up"
-        android:textColor="@color/black"
-        android:textSize="@dimen/_15ssp" />
+    <include
+        layout="@layout/app_bar_2"
+        android:id="@+id/actionbar"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rectanglebar"
-        android:layout_below="@id/text1"
+        android:layout_below="@id/actionbar"
         android:weightSum="4"
         android:layout_marginHorizontal="@dimen/_10sdp"
         android:layout_marginBottom="@dimen/_70sdp">
@@ -61,7 +45,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/text2"
+        android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rectanglebar"
@@ -76,7 +60,7 @@
         android:id="@+id/EnterPassword"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
-        android:layout_below="@id/text2"
+        android:layout_below="@id/text1"
         android:layout_marginTop="@dimen/_15sdp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
@@ -101,7 +85,7 @@
         android:background="@drawable/custom_progress_bg" />
 
     <TextView
-        android:id="@+id/text3"
+        android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/progressbar"
@@ -114,18 +98,19 @@
     <ImageView
         android:layout_width="@dimen/_20sdp"
         android:layout_height="@dimen/_20sdp"
-        android:layout_below="@id/text3"
+        android:layout_below="@id/text2"
         android:id="@+id/check1"
         android:src="@drawable/charactercheck"
         android:padding="@dimen/_3sdp"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/check1"
-        android:layout_below="@id/text3"
-        android:text="8+ Characters"
+        android:layout_below="@id/text2"
         android:layout_marginLeft="@dimen/_8sdp"
-        android:textColor="#A6A0A0"/>
+        android:layout_toRightOf="@+id/check1"
+        android:text="8+ Characters"
+        android:textColor="#A6A0A0" />
     <ImageView
         android:layout_width="@dimen/_20sdp"
         android:layout_height="@dimen/_20sdp"
@@ -157,17 +142,5 @@
         android:layout_toRightOf="@+id/check3"
         android:text="At least 1 number"
         android:textColor="#A6A0A0" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_40sdp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginHorizontal="@dimen/_10sdp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="@dimen/_15sdp"
-        android:background="@drawable/button_rounded_corner"
-        android:text="Continue"
-        android:textColor="@color/white" />
 
 </RelativeLayout>

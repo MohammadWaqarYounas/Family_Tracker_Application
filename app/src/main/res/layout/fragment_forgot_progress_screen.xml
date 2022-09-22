@@ -4,31 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ForgotPassword"
     android:background="@color/background"
     android:paddingHorizontal="15dp"
     android:paddingTop="@dimen/_5sdp">
-    <ImageView
-        android:id="@+id/back"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:layout_alignParentLeft="true"
-        android:background="@drawable/backarrow" />
-
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:src="@drawable/logo" />
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/actionbar"/>
 
     <TextView
         android:id="@+id/forgottext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/logo"
+        android:layout_below="@id/actionbar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/_15sdp"
         android:text="Forgot password"
@@ -64,17 +51,5 @@
         android:textColor="@color/DarkGray"
         android:textSize="@dimen/_11ssp" />
 
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_40sdp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginHorizontal="@dimen/_10sdp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="@dimen/_15sdp"
-        android:background="@drawable/button_rounded_corner"
-        android:text="Sign In"
-        android:textColor="@color/white" />
 
 </RelativeLayout>

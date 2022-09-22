@@ -9,4 +9,6 @@
     <string name="Email_sent_to">An account activation mail has been sent to [user@gmail.com]</string>
     <string name="Check_your_email">PLease check your email and click in the validation link to activate your account, then click Continue.</string>
     <string name="Account_Success">Your account has been successfully activated.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

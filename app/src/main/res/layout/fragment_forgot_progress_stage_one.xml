@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ForgotPassword"
     android:background="@color/background"
     android:paddingHorizontal="15dp"
     android:paddingTop="@dimen/_5sdp">
-    <ImageView
-        android:id="@+id/back"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:layout_alignParentLeft="true"
-        android:background="@drawable/backarrow" />
-
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="wrap_content"
+    <include
+        layout="@layout/app_bar_2"
+        android:id="@+id/actionbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:src="@drawable/logo" />
+        android:id="@+id/rectanglebar"
+        android:layout_below="@id/actionbar"
+        android:weightSum="4"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_70sdp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:src="@drawable/rectangle18"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:src="@drawable/rectangle19"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:src="@drawable/rectangle19"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:src="@drawable/rectangle19"
+            />
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/forgottext"
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/logo"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:text="Forgot password"
-        android:textColor="@color/ExtraDarkGray"
-        android:textSize="@dimen/_18ssp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/forgottext"
+        android:layout_below="@+id/rectanglebar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/_15sdp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Please enter your email address"
         android:textColor="@color/ExtraDarkGray"
         android:textSize="@dimen/_15ssp" />
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/text1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginHorizontal="@dimen/_65sdp"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/Email_Instruction"
-        android:textColor="@color/DarkGray"
-        android:textSize="@dimen/_11ssp"
-        android:gravity="center"/>
     <EditText
         android:id="@+id/EnterEmail"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
-        android:layout_below="@id/text2"
+        android:layout_below="@id/text"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
         android:drawableStart="@drawable/emailicon"
@@ -85,7 +78,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="@dimen/_15sdp"
         android:background="@drawable/button_rounded_corner"
-        android:text="Reset Password"
+        android:text="Continue"
         android:textColor="@color/white" />
 
 </RelativeLayout>

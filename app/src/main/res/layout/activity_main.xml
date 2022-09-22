@@ -8,28 +8,16 @@
     android:background="@color/background"
     android:paddingHorizontal="15dp"
     android:paddingTop="@dimen/_5sdp">
-
-    <ImageView
-        android:id="@+id/back"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:layout_alignParentLeft="true"
-        android:background="@drawable/backarrow" />
-
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:src="@drawable/logo" />
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/actionbar"
+        />
 
     <TextView
         android:id="@+id/signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/logo"
+        android:layout_below="@+id/actionbar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_30sdp"
@@ -149,6 +137,7 @@
         android:backgroundTint="@color/white"
         android:layout_marginTop="@dimen/_45sdp"
         android:padding="@dimen/_13sdp"/>
+
     <TextView
         android:id="@+id/donthave"
         android:layout_width="wrap_content"
@@ -158,18 +147,18 @@
         android:layout_marginBottom="@dimen/_10sdp"
         android:text="Don't have acount?"
         android:textColor="@color/DarkGray"
-        android:textSize="15sp" />
+        android:textSize="@dimen/_10ssp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/donthave"
         android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_toRightOf="@id/donthave"
         android:fontFamily="sans-serif"
         android:text="SignUp"
         android:textColor="@color/purple"
-        android:textSize="15sp"
+        android:textSize="@dimen/_10ssp"
         android:textStyle="bold" />
 
 </RelativeLayout>
