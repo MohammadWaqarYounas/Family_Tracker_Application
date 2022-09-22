@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -46,7 +47,7 @@ public class UserPage extends AppCompatActivity {
             Uri image=acc.getPhotoUrl();
             name.setText(Name);
             email.setText(Email);
-            userimage.setImageURI(image);
+            Glide.with(this).load(String.valueOf(image)).into(userimage);
         }
 
 

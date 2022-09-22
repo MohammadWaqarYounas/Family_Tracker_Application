@@ -44,14 +44,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        button=findViewById(R.id.button);
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent= new Intent(MainActivity.this,ForgotPassword.class);
-//                startActivity(intent);
-//            }
-//        });
+        button=findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(MainActivity.this,ForgotPassword.class);
+                startActivity(intent);
+            }
+        });
 
     }
     private void signIn() {
