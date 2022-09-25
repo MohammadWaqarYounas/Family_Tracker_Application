@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/drawable/button_rounded_corner.xml" value="0.152" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/drawable/ic_visibility.xml" value="0.152" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/drawable/ic_visibility_off.xml" value="0.152" />
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/drawable/rounded_corner.xml" value="0.152" />
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_forgot_fragment.xml" value="0.246875" />
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_forgot_password.xml" value="0.246875" />
@@ -14,6 +16,7 @@
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_forgot_progress_stage_three.xml" value="0.246875" />
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_frogot_progress_stage_two.xml" value="0.246875" />
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_main.xml" value="0.246875" />
+        <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_sign_up_page.xml" value="0.2609375" />
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/activity_user_page.xml" value="0.2609375" />
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/app_bar.xml" value="0.2598958333333333" />
         <entry key="..\:/Users/Mohammad Waqar/AndroidStudioProjects/Family_Tracker_Application/app/src/main/res/layout/app_bar_2.xml" value="0.2598958333333333" />

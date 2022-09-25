@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpPage"
+    android:background="@color/background"
+    android:paddingHorizontal="15dp"
+    android:paddingTop="@dimen/_5sdp">
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/actionbar"
+        />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:text="Create Your Account"
+        android:textColor="@color/ExtraDarkGray"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/NameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Fill out the form"
+        android:textColor="@color/DarkGray"
+        android:textSize="@dimen/_12ssp" />
+
+    <EditText
+        android:id="@+id/EnterName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_below="@id/NameText"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:hint="Enter full name"
+        android:inputType="textCapSentences"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/DarkGray"
+        android:textColorHint="@color/DarkGray"
+        android:textSize="@dimen/_10sdp" />
+
+    <EditText
+        android:id="@+id/EnterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_below="@id/EnterName"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:hint="Enter email address"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/DarkGray"
+        android:textColorHint="@color/DarkGray"
+        android:textSize="@dimen/_10sdp" />
+    <EditText
+        android:id="@+id/Mobile"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_below="@id/EnterEmail"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:hint="Enter mobile number"
+        android:inputType="phone"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/DarkGray"
+        android:textColorHint="@color/DarkGray"
+        android:textSize="@dimen/_10sdp" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_below="@id/Mobile"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/DarkGray"
+        android:textColorHint="@color/DarkGray"
+        android:textSize="@dimen/_10sdp" />
+
+    <EditText
+        android:id="@+id/Repassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_below="@id/password"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/DarkGray"
+        android:textColorHint="@color/DarkGray"
+        android:textSize="@dimen/_10sdp" />
+
+    <Button
+        android:id="@+id/createaccount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_rounded_corner"
+        android:text="Create Account"
+        android:textColor="@color/white" />
+</RelativeLayout>

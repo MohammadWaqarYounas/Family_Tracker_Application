@@ -31,19 +31,17 @@ public class ForgotFragment extends AppCompatActivity {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.forgotpasswordfragment, fps);
         ft.commit();
-
         //Loading First fragment on beginning.............................
 //        ForgotPasswordScreen fs = new ForgotPasswordScreen();
 //        ft.replace(R.id.forgotpasswordfragment, fs);
 //        ft.commit();
-
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 switch (position) {
                     case 0:
-/*//                    FragmentManager fragmentManager = getSupportFragmentManager();
+                    /*//                    FragmentManager fragmentManager = getSupportFragmentManager();
 //                    FragmentTransaction transaction = fragmentManager.beginTransaction();
                         ForgotProgressScreen fp = new ForgotProgressScreen();
                         ft.replace(R.id.forgotpasswordfragment, fp);
