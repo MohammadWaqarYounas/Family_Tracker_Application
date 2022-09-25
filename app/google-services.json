@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22789975185",
+    "project_id": "family-tracker-applicati-621ed",
+    "storage_bucket": "family-tracker-applicati-621ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22789975185:android:10911996df0764390e6330",
+        "android_client_info": {
+          "package_name": "com.example.family_tracker_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22789975185-ec3led898sl6maltefcrmgbd1bapv2dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLA4RC8wkeGA8oVKlc-w3LlhOuCkppzXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22789975185-ec3led898sl6maltefcrmgbd1bapv2dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
